@@ -1,0 +1,21 @@
+Deliverable:
+
+
+Task:
+
+
+1. As we return the responses to as 'Hello World' for url '/' and 'This is your pizza' for url '/pizza'.
+
+
+2. Based on the url the user hits , I want you to return custom responses.
+
+When url = /home , return response as 'Welcome home'
+
+When url = /about, return response as 'Welcome to About Us'
+
+When url =/node, return response as 'Welcome to my Node Js project'
+
+When url is anything else expect '/home,/about,/node' return 'Page Not Found'.
+
+
+3.The responses should appear on the webpage as an added html element.
