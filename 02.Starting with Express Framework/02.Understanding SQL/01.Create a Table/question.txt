@@ -1,0 +1,8 @@
+Create a SQL statement to define a table named Students that includes the following columns:
+
+
+Name: A string representing the student's full name.
+
+Email: A string representing the student's email address.
+
+DOB: A date representing the student's date of birth.
