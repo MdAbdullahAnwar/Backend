@@ -1,0 +1,42 @@
+You are given a products table that stores information about various products, including their price and quantity. Write a query to retrieve all the products where the price is greater than 500.
+
+Example:
+
+Task:
+
+Write a SQL query that retrieves the id, product_name, price, and quantity for products where the price is greater than 500 using the WHERE clause with the > operator.
+
+products table:
+
+id|product_name|price|quantity
+
+1|Laptop|1000|50
+
+2|Phone|600|150
+
+3|Tablet|300|200
+
+4|Smartwatch|800|120
+
+5|Headphones|450|300
+
+6|Monitor|1200|80
+
+
+
+
+Expected Output:
+
+Your output should list all products with columns id,product_name ,price and quantity where the price is greater than 500.
+
+Output:
+
+id|product_name|price|quantity
+
+1|Laptop|1000|50
+
+2|Phone|600|150
+
+4|Smartwatch|800|120
+
+6|Monitor|1200|80
