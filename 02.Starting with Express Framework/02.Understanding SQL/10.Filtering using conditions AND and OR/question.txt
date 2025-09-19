@@ -1,0 +1,57 @@
+Using AND and OR Operators
+
+
+
+Watch the video : AND ,OR and NOT for understanding AND,OR and NOT Operators.
+
+After watching the video complete the following question.
+
+You are analyzing the products table, which stores product details.
+
+
+
+Deliverables:
+
+
+You are given a table called Products with the following structure:
+
+product_id|product_name|category|price|in_stock
+
+1|Smartphone|Electronics|50000|Yes
+
+2|Microwave Oven|Appliances|15000|No
+
+3|Laptop|Electronics|70000|Yes
+
+4|Vacuum Cleaner|Appliances|12000|Yes
+
+5|Wireless Earbuds|Electronics|3000|Yes
+
+
+
+
+Questions:
+
+Write a query to retrieve all products that:
+
+
+
+Belong to the Electronics category AND cost more than 10,000.
+
+
+
+OR are in stock in the Appliances category.
+
+Use product_id, product_name, category, price, and in_stock as the output columns
+
+
+
+Expected Output:
+
+product_id|product_name|category|price|in_stock
+
+1|Smartphone|Electronics|50000|Yes
+
+3|Laptop|Electronics|70000|Yes
+
+4|Vacuum Cleaner|Appliances|12000|Yes
