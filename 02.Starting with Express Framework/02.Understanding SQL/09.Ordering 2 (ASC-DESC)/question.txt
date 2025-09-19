@@ -1,0 +1,39 @@
+Implementing order by:
+
+
+
+Deliverables:
+
+Write an SQL query to retrieve the names of all products from a table called Products, ordered by their ProductName in descending alphabetical order.
+
+
+
+Table structure:
+
+ProductID|ProductName|Price
+
+1|Laptop|80000
+
+2|Smartphone|25000
+
+3|Tablet|30000
+
+4|Headphones|5000
+
+5|Monitor|15000
+
+
+
+Expected output:
+
+ProductName
+
+Smartphone
+
+Tablet
+
+Monitor
+
+Laptop
+
+Headphones
