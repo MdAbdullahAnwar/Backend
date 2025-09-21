@@ -1,0 +1,55 @@
+Using the INSERT Command in SQL
+
+
+
+Video Links:
+
+Insert Introduction
+
+Insert Implementation
+
+
+
+Before attempting this question, watch the video on the INSERT statement in SQL. It demonstrates two approaches to adding data to a table:
+
+
+With Column Names: Ensures clarity by specifying the target columns, reducing errors if the table structure changes.
+
+
+Without Column Names: Adds values directly in the table’s column order but requires accuracy in matching the column sequence.
+
+
+
+Deliverables:
+
+Question:
+
+We have a table employees. The employee has the following details:
+
+
+
+id
+
+name
+
+age
+
+department
+
+salary
+
+
+
+Write an SQL query to add a new employee to the employees table such that we are making the entries as
+
+
+
+id :104
+
+name : 'Michael Johnson'
+
+age : 29
+
+department :'Finance'
+
+salary : 65000
