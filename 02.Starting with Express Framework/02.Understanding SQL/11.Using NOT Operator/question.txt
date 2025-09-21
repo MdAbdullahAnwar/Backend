@@ -1,0 +1,40 @@
+Deliverables:
+
+You are given a table called Employees with the following structure:
+
+emp_id|emp_name|department|salary|joining_date
+
+1|Alice|HR|45000|2022-05-15
+
+2|Bob|IT|60000|2021-03-12
+
+3|Charlie|IT|75000|2023-01-20
+
+4|Diana|HR|50000|2020-08-25
+
+5|Eve|Sales|65000|2023-06-10
+
+
+
+Question:
+
+Write a query to retrieve all employees who:
+
+
+
+Do NOT work in the HR department.
+
+Do NOT have a salary less than 50,000.
+
+Use emp_id, emp_name, department, salary, and joining_date as the output columns.
+
+
+Expected Output:
+
+emp_id|emp_name|department|salary|joining_date
+
+2|Bob|IT|60000|2021-03-12
+
+3|Charlie|IT|75000|2023-01-20
+
+5|Eve|Sales|65000|2023-06-10
