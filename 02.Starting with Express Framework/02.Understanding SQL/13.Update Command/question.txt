@@ -1,0 +1,40 @@
+Learn how to use the UPDATE SQL command.
+
+Video Link: Update Command
+
+
+Instructions:
+
+Watch the video on the UPDATE SQL command to understand its syntax and use cases.
+
+
+Once you have learned the concept, complete the following task:
+
+
+Deliverables:
+
+
+You are managing the employees table, which contains information about employees in a company. The table has the following structure:
+
+
+id (INT)
+
+name (VARCHAR)
+
+age (INT)
+
+department (VARCHAR)
+
+salary (INT)
+
+
+
+Task:
+
+The employee with id = 104 has received a salary raise and a promotion. You need to:
+
+Update the employee's salary to 75000.
+
+Update the employee's department to 'Senior Finance'.
+
+Write an SQL query to accomplish this.
