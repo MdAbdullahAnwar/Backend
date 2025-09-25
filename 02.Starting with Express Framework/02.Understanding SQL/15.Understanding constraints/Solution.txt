@@ -1,0 +1,91 @@
+Ques 1: What is the purpose of the NOT NULL constraint in the Students table?
+
+Ans:
+To ensure that every student record has a complete name.
+
+
+
+Ques 2: Why was the PRIMARY KEY constraint implemented in the StudentID column?
+
+Ans:
+To ensure each student has a unique identifier.
+
+
+
+Ques 3: What problem does the FOREIGN KEY constraint solve in the Students table?
+
+Ans:
+It ensures that students can be assigned to valid classes only.
+
+
+
+Ques 4: In the context of the given scenarios, what issue arises from not using the NOT NULL constraint?
+
+Ans:
+Student may have incomplete records that may lead to confusion.
+
+
+
+Ques 5: How does the PRIMARY KEY constraint impact data integrity in the Students table?
+
+Ans:
+It ensures that every student record is unique and organized.
+
+
+
+Ques 6: What does a FOREIGN KEY constraint do in the context of the Students table?
+
+Ans:
+It links the Students table to the Classes table, ensuring valid class assignments.
+
+
+
+Ques 7: What happens if a student is assigned to a ClassID that doesn’t exist in the Classes table?
+
+Ans:
+The database will throw an error due to FOREIGN KEY constraints.
+
+
+
+Ques 8: Why is it important to maintain valid relationships using FOREIGN KEY constraints?
+
+Ans:
+It ensures data integrity and consistency accross related tables.
+
+
+
+Ques 9: Which SQL statement correctly creates the Classes table with a primary key?
+
+Ans:
+CREATE TABLE Classes (
+    ClassID INT PRIMARY KEY,
+    ClassName VARCHAR(50)
+);
+
+
+
+Ques 10: Which of the following statements correctly implements a NOT NULL constraint on the FirstName column?
+
+Ans:
+FirstName VARCHAR(50) NOT NULL;
+
+
+
+Ques 11: We have two tables: Students and Classes like shown in the video.
+
+The Students table should include the following columns:
+
+StudentID: An integer that is the primary key.
+FirstName: A string (VARCHAR) that cannot be NULL.
+LastName: A string (VARCHAR) that cannot be NULL.
+ClassID: An integer that acts as a foreign key referencing the ClassID in the Classes table.
+The Classes table should include:
+
+ClassID: An integer that is the primary key.
+ClassName: A string (VARCHAR) representing the name of the class.
+
+
+What is the correct way to define a foreign key in the Students table that references the ClassID in the Classes table?
+
+Ans:
+FOREIGN KEY (ClassID) REFERENCES Classes(ClassID);

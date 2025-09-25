@@ -1,0 +1,20 @@
+Exploring Database Constraints!
+
+
+
+Hello, everyone!
+
+Today, we’re diving into database constraints—the essential rules that help keep your data organized and reliable.
+
+These constraints ensure that your database functions smoothly, preventing errors and maintaining data integrity.
+
+To get started, check out this quick video that breaks it all down:
+
+
+
+Video link: Understanding Database Constraints
+
+
+Deliverable:
+
+After watching, complete the following questions.
