@@ -1,0 +1,53 @@
+Ques 1. What constraint should you use for GroupID?
+
+Ans:
+PRIMARY KEY
+
+
+
+Ques 2. What constraint should you use for GroupName?
+
+Ans:
+NOT NULL
+
+
+
+Ques 3. What constraint should you use for UserID?
+
+Ans:
+NOT NULL
+
+
+
+Ques 4. What constraint should you use for Username?
+
+Ans:
+NOT NULL
+
+
+
+Ques 5. What constraint should you use for Email?
+
+Ans:
+NOT NULL
+
+
+
+Ques 6. What constraint should you use for RegistrationDate?
+
+Ans:
+NOT NULL
+
+
+
+Ques 7. What constraint should you use for GroupID?
+
+Ans:
+NOT NULL
+
+
+
+Ques 8. How should you complete the FOREIGN KEY definition?
+
+Ans:
+REFERENCES Groups(GroupID)

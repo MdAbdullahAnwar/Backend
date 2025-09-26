@@ -1,0 +1,13 @@
+SQL Statements for Creating Groups and Users Tables
+
+
+
+Imagine you’re setting up a database for a community platform.
+
+You need to create two essential tables: one for groups and another for users. Below are the incomplete SQL statements for these tables.
+
+
+
+Deliverables:
+
+Your task is to fill in the blanks with the correct constraints to ensure data integrity and structure and complete the following MCQ.
