@@ -1,0 +1,44 @@
+Before attempting these questions, watch the video(s) below to understand the concept of aggregate functions in SQL.
+
+These videos will guide you through how to use functions like SUM(), AVG(), MAX(), MIN(), and COUNT() to perform calculations on data.
+
+Video link - Aggregate Function Introduction,
+
+Video link - Different Types of Aggregate Functions
+
+
+
+
+Deliverables:
+
+You are given a table called Employees with the following structure:
+
+ID|Name|Department|Salary
+
+1|Alice|HR|50000
+
+2|Bob|Engineering|60000
+
+3|Charlie|HR|55000
+
+4|David|Engineering|45000
+
+5|Eve|Marketing|70000
+
+
+
+
+Calculate total salary:
+
+Write a query to calculate the total salary paid to all employees.
+
+Use TotalSalary as the alias for returning the result.
+
+
+
+
+Expected Output:
+
+TotalSalary
+
+280000
