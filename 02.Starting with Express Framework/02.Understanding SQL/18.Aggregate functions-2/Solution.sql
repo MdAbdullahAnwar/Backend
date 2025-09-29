@@ -1,0 +1,16 @@
+CREATE TABLE Employees (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Department VARCHAR(50),
+    Salary INT
+);
+
+INSERT INTO Employees (ID, Name, Department, Salary) VALUES
+(1, 'Alice', 'HR', 50000),
+(2, 'Bob', 'Engineering', 60000),
+(3, 'Charlie', 'HR', 55000),
+(4, 'David', 'Engineering', 45000),
+(5, 'Eve', 'Marketing', 70000),
+(6, 'Frank', 'Sales', 52000);
+
+SELECT AVG(Salary) FROM Employees;
