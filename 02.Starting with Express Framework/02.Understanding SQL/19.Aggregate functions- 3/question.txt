@@ -1,0 +1,35 @@
+Question to find the minimum and maximum from the table employee.
+
+
+
+Deliverables:
+
+You are given a table called Employees with the following structure:
+
+ID|Name|Department|Salary
+
+1|Alice|HR|50000
+
+2|Bob|Engineering|60000
+
+3|Charlie|HR|55000
+
+4|David|Engineering|45000
+
+5|Eve|Marketing|70000
+
+
+
+Calculate minimum and maximum salary:
+
+Write a query to calculate the minimum and maximum salary paid to the employees.
+
+Use LowestSalary and HighestSalary as the alias for returning the result.
+
+
+
+Expected Output:
+
+HighestSalary|LowestSalary
+
+70000|45000
