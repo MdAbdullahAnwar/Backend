@@ -1,0 +1,38 @@
+Question to find the name of the person who has the lowest salary in the table employee.
+
+
+
+
+Deliverables:
+
+You are given a table called Employees with the following structure:
+
+ID|Name|Department|Salary
+
+1|Alice|HR|50000
+
+2|Bob|Engineering|60000
+
+3|Charlie|HR|55000
+
+4|David|Engineering|45000
+
+5|Eve|Marketing|70000
+
+
+
+
+Find the name of the lowest-paid employee:
+
+Write a query to find the name of the employee with the lowest salary.
+
+Use Name as the alias for returning the result.
+
+
+
+
+Expected Output:
+
+name
+
+David
