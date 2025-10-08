@@ -1,0 +1,55 @@
+Hey there!
+
+Watch the following video to understand how the GROUP BY clause works in SQL.
+
+Video Link: Group by
+
+This clause helps you organize and summarize your data efficiently.
+
+Pay attention to how it is used to group data based on one or more columns and how aggregate functions like SUM, COUNT, AVG, and others work in conjunction with it.
+
+Once you've finished watching, complete the questions below to test your understanding of the GROUP BY clause.
+
+
+
+
+Deliverables:
+
+Find the Total Salary by Department
+
+Description:
+
+Write a query to calculate the total salary for each department using the GROUP BY clause.
+
+Note: Make use of alias for creating a resultant column as total_salary
+
+Sample Input Data
+
+employee_id|name|department|salary
+
+1|Alice|HR|50000
+
+2|Bob|IT|60000
+
+3|Charlie|Sales|55000
+
+4|David|IT|62000
+
+5|Eve|Marketing|52000
+
+6|Andrew|HR|48000
+
+
+
+
+Expected Output:
+
+department|total_salary
+
+HR|98000
+
+IT|122000
+
+Sales|55000
+
+Marketing|52000
