@@ -1,0 +1,64 @@
+Question 2: Using LIMIT and OFFSET for Pagination
+
+Description:
+
+
+
+
+You have a table called products that contains items in a store. You want to implement pagination by fetching 5 records per page.
+
+CREATE TABLE products (
+    id INT,
+    name VARCHAR(50),
+    price DECIMAL(10,2)
+);
+
+
+Write a query to fetch the records for Page 2, assuming each page contains 5 items
+
+
+
+
+Sample Input Data:
+
+id|name|price
+
+1|Pencil|10.00
+
+2|Pen|20.00
+
+3|Notebook|50.00
+
+4|Eraser|5.00
+
+5|Sharpener|15.00
+
+6|Ruler|25.00
+
+7|Marker|30.00
+
+8|Glue|12.00
+
+9|Scissors|45.00
+
+10|Tape|18.00
+
+
+
+
+Expected Output (Page 2):
+
+
+
+
+id|name|price
+
+6|Ruler|25.00
+
+7|Marker|30.00
+
+8|Glue|12.00
+
+9|Scissors|45.00
+
+10|Tape|18.00
