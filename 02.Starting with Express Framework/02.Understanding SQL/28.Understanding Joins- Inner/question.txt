@@ -1,0 +1,92 @@
+Hey there!
+
+Watch the following video
+
+Video Link: Joins , Different Types of Joins
+
+
+
+
+to understand how SQL JOINs work and how they help you combine data from multiple tables.
+
+This clause is essential for retrieving related data from two or more tables, allowing you to combine records based on common columns.
+
+Pay close attention to how different types of joins—INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN, and SELF JOIN—are used in various scenarios to link data and retrieve meaningful results.
+
+Once you've finished watching, complete the questions below to test your understanding of the different types of joins in SQL.
+
+
+
+
+Deliverables:
+
+
+
+
+Hotel Reservation System
+
+You are managing the database for a hotel reservation system. The system tracks hotel guests, room bookings, and hotel staff. The database consists of the following tables:
+
+
+
+
+
+Guests Table: Stores guest details, including guest ID, name, and contact information.
+
+
+
+Rooms Table: Stores room details, including room ID, type of room, and price.
+
+
+
+Reservations Table: Stores details about room bookings, including reservation ID, guest ID, room ID, and reservation date.
+
+
+
+Staff Table: Stores details of the hotel staff, including staff ID, name, and position.
+
+
+
+
+INNER JOIN
+
+You are tasked with retrieving the names of guests and the room type they have reserved, but only for guests who have actually made a reservation.
+
+Write an SQL query to retrieve the names of guests and the room ID they have reserved.
+
+
+
+
+Sample Input
+
+Guests Table:
+
+guest_id | name | contact_info
+
+1 | John Doe | john.doe@gmail.com
+
+2 | Mary Jane | mary.jane@yahoo.com
+
+3 | James Smith | james.smith@outlook.com
+
+
+
+
+Reservations Table:
+
+reservation_id | guest_id | room_id | reservation_date
+
+1 | 1 | 2 | 2024-10-05
+
+2 | 2 | 3 | 2024-10-06
+
+
+
+
+Sample Output
+
+guest_name | reserved_room_id
+
+John Doe | 2
+
+Mary Jane | 3
