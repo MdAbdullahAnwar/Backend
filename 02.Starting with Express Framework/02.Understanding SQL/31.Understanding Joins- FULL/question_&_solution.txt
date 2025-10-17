@@ -1,0 +1,104 @@
+Understanding FULL JOINs through Hotel Reservation System
+
+You are managing the database for a hotel reservation system. The system tracks hotel guests, room bookings, and hotel staff. The database consists of the following tables:
+
+
+
+
+
+Guests Table: Stores guest details, including guest ID, name, and contact information.
+
+
+
+Rooms Table: Stores room details, including room ID, type of room, and price.
+
+
+
+Reservations Table: Stores details about room bookings, including reservation ID, guest ID, room ID, and reservation date.
+
+
+
+Staff Table: Stores details of the hotel staff, including staff ID, name, and position.
+
+
+
+
+Deliverables:
+
+Question:
+
+Write an SQL query to display all guests and all rooms, including guests without a reservation and rooms without any bookings.
+
+
+
+
+Guests Table:
+
+GuestID|Name|Contact
+
+1|John Doe|john.doe@gmail.com
+
+2|Mary Jane|mary.jane@yahoo.com
+
+3|James Smith|james.smith@outlook.com
+
+
+
+
+Rooms Table:
+
+RoomID|RoomType|Price
+
+1|Single|100
+
+2|Double|150
+
+3|Suite|300
+
+
+
+
+Reservations Table:
+
+ReservationID|GuestID|RoomID|ReservationDate
+
+1|1|2|2024-10-05
+
+
+
+
+Expected Output:
+
+GuestName|RoomType|ReservationDate
+
+John Doe|Double|2024-10-05
+
+Mary Jane|NULL|NULL
+
+James Smith|NULL|NULL
+
+NULL|Single|NULL
+
+NULL|Suite|NULL
+
+
+
+
+
+Ques 1. Write an SQL query to display all guests and all rooms, including guests without a reservation and rooms without any bookings.
+
+Ans:
+SELECT g.Name AS GuestName, r.RoomType, r.ReservationDate
+FROM Guests g
+FULL JOIN Reservations r ON g.GuestID = r.GuestID
+FULL JOIN Rooms r2 ON r.RoomID = r2.RoomID;
+
+
+
+Ques 2. When would you use a FULL JOIN in SQL?
+
+Ans:
+To retrieve all records from both tables, including those that do not have matching records in the other table.
+
+
+A FULL JOIN (also known as a FULL OUTER JOIN) is used when you want to retrieve all records from both tables involved in the join, even if there are no matching rows in one of the tables. If there is no match for a row from one table, the result will still include the row, but with NULL values for the columns of the table that does not have a match.
