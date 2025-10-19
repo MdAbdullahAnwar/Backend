@@ -1,0 +1,81 @@
+As a developer or database designer,
+
+it's crucial to organize data in a way that minimizes redundancy and maintains data integrity. This process is known as Normalization.
+
+Let’s explore how normalization helps improve database design.
+
+
+
+
+Recommended Reading Before You Start:
+
+Make yourself familiar with the key concepts of databases:
+
+Database Notes
+
+
+
+
+Watch the video below to learn about:
+
+
+
+
+
+
+
+
+Why normalization is essential in databases
+
+
+
+How it helps structure your data more efficiently
+
+
+
+The different normal forms (1NF, 2NF, 3NF) and what problems they address
+
+Video: Normalization in DBMS
+
+
+
+
+Deliverable
+
+After watching the video, test your understanding by answering the following MCQ questions based on the concepts of normalization and its benefits.
+
+
+
+
+
+MCQs:
+
+
+Ques1. What is the main goal of normalization in relational databases?
+
+Ans: To eliminate redundant data and ensure data independencies make sense.
+
+
+Ques2. Which of the following is true for a table to be in First Normal Form (1NF)?
+
+Ans: It must have only atomic(indivisible) values.
+
+
+Ques3.  A table is in 2NF if:
+
+Ans: It is in 1NF and has no partial dependencies.
+
+
+Ques4.  Which of the following is an example of a transitive dependency?
+
+Ans: A -> B, B -> C, therefore A -> C.
+
+
+Ques5. What does 3NF (Third Normal Form) eliminate?
+
+Ans: Transitive Dependencies.
+
+
+Ques6. Which of the following is NOT a benefit of normalization?
+
+Ans: Faster query performance in all cases.
