@@ -1,0 +1,100 @@
+Online Store Database Management
+
+Hey, you are the DB Manager for an online shopping platform. Your job is to manage and maintain the database that tracks all the key information about the store’s operations. Customers browse products, place orders, and purchase multiple items in a single order. The database stores all the necessary details to manage inventory, calculate total revenue, and track customer activities.
+
+
+
+
+Tables and Sample Data
+
+1. Customers Table
+
+Stores customer details like name, email, phone number, address, and registration date.
+
+Sample Data:
+
+
+
+
+
+CustomerID: 1, Name: Alice Johnson, Email: alice.johnson@gmail.com, PhoneNumber: 9876543210, Address: 123 Park Lane, Cityville, RegisteredDate: 2024-10-01
+
+
+
+
+2. Products Table
+
+Stores product details like product name, category, price, and available stock.
+
+Sample Data:
+
+
+
+
+
+ProductID: 1, ProductName: "Wireless Mouse", Category: "Electronics", Price: ₹600, Stock: 100
+
+
+
+
+3. Orders Table
+
+Stores order information such as order date, customer ID, and total amount of the order.
+
+Sample Data:
+
+
+
+
+
+OrderID: 1, CustomerID: 1, OrderDate: 2024-10-05, TotalAmount: ₹2200
+
+
+
+
+4. OrderItems Table
+
+Stores details about each product purchased in the orders, such as product ID, order ID, quantity, and price.
+
+Sample Data:
+
+
+
+
+
+OrderItemID: 1, OrderID: 1, ProductID: 1, Quantity: 2, Price: ₹600
+
+
+
+
+Deliverables:
+
+As the DB Manager for the online store, you need to retrieve a list of all products available in the store.
+
+Write an SQL query to get the ProductID, ProductName, Category, Price, and Stock for every product from the Products table.
+
+
+
+
+Sample Input:
+
+ProductID|ProductName|Category|Price|Stock
+
+1|Wireless Mouse|Electronics|600|100
+
+2|Bluetooth Headphones|Electronics|1500|50
+
+3|Coffee Maker|Home Appliances|3000|30
+
+
+
+
+Output:
+
+ProductID|ProductName|Category|Price|Stock
+
+1|Wireless Mouse|Electronics|600|100
+
+2|Bluetooth Headphones|Electronics|1500|50
+
+3|Coffee Maker|Home Appliances|3000|30
