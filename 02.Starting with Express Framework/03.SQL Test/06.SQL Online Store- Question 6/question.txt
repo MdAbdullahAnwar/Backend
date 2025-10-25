@@ -1,0 +1,93 @@
+Online Store Database Management
+
+Hey, you are the DB Manager for an online shopping platform. Your job is to manage and maintain the database that tracks all the key information about the store’s operations. Customers browse products, place orders, and purchase multiple items in a single order. The database stores all the necessary details to manage inventory, calculate total revenue, and track customer activities.
+
+
+
+
+Tables:
+
+Customers Table
+
+Stores customer details like name, email, phone number, address, and registration date.
+
+Structure:CustomerID|Name|Email|PhoneNumber|Address|RegisteredDate
+
+
+
+
+Products Table
+
+Stores product details like product name, category, price, and available stock.
+
+Structure:ProductID|ProductName|Category|Price|Stock
+
+
+
+
+Orders Table
+
+Stores order information such as order date, customer ID, and total amount of the order.
+
+Structure:OrderID|CustomerID|OrderDate|TotalAmount
+
+
+
+
+OrderItems Table
+
+Stores details about each product purchased in the orders, such as product ID, order ID, quantity, and price.
+
+Structure:OrderItemID|OrderID|ProductID|Quantity|Price
+
+
+
+
+Deliverable:
+
+Write an SQL query to retrieve customers who have placed orders totaling more than ₹10,000.
+
+Hint: Use GROUP BY to group orders by customer and HAVING to filter customers based on the total amount spent.
+
+
+
+
+Sample Input:
+
+Orders Table:
+
+OrderID|CustomerID|OrderDate|TotalAmount
+
+1|1|2024-02-05|5000
+
+2|2|2024-03-06|15000
+
+3|1|2024-01-15|8000
+
+4|3|2024-02-10|12000
+
+5|2|2024-05-01|7000
+
+
+
+
+Customers Table:
+
+CustomerID|CustomerName|Email
+
+1|Alice Johnson|alice.johnson@gmail.com
+
+2|Bob Smith|bob.smith@gmail.com
+
+3|Charlie Brown|charlie.brown@gmail.com
+
+
+
+
+Expected Output:
+
+CustomerName|TotalSpent
+
+Bob Smith|22000
+
+Charlie Brown|12000
