@@ -1,0 +1,51 @@
+Employee Sales Performance Tracking
+Scenario:
+
+You are the Database Manager for an electronics retail company.
+The company tracks its sales team’s performance through customer purchases.
+Each employee can sell multiple products, and the system records which employee handled which sale.
+
+You need to find employees whose total sales amount exceeds ₹50,000.
+
+Tables
+Employees Table
+
+Stores information about employees.
+
+EmployeeID | EmployeeName | Department | HireDate
+
+
+Sales Table
+
+Stores each sale transaction with the sale amount and employee ID.
+
+SaleID | EmployeeID | SaleDate | SaleAmount
+
+
+
+Sample Input
+
+Employees Table
+
+EmployeeID	EmployeeName	Department
+1	Rahul Sharma	Electronics
+2	Neha Verma	Home Appliances
+3	Arjun Mehta	Computers
+
+Sales Table
+
+SaleID	EmployeeID	SaleDate	SaleAmount
+1	1	2024-01-05	30000
+2	2	2024-02-10	20000
+3	1	2024-03-01	25000
+4	3	2024-03-15	45000
+5	2	2024-04-20	40000
+
+
+
+Expected Output
+
+EmployeeName	TotalSales
+Rahul Sharma	55000
+Neha Verma	60000
+Arjun Mehta	45000 (Not shown because below ₹50,000)
