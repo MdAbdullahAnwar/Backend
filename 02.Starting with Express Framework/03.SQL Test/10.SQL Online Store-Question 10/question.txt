@@ -1,0 +1,93 @@
+Online Store Database Management
+
+Hey, you are the DB Manager for an online shopping platform. Your job is to manage and maintain the database that tracks all the key information about the store’s operations. Customers browse products, place orders, and purchase multiple items in a single order. The database stores all the necessary details to manage inventory, calculate total revenue, and track customer activities.
+
+
+
+
+Tables:
+
+Customers Table
+
+Stores customer details like name, email, phone number, address, and registration date.
+
+Structure:CustomerID|Name|Email|PhoneNumber|Address|RegisteredDate
+
+
+
+
+Products Table
+
+Stores product details like product name, category, price, and available stock.
+
+Structure:ProductID|ProductName|Category|Price|Stock
+
+
+
+
+Orders Table
+
+Stores order information such as order date, customer ID, and total amount of the order.
+
+Structure:OrderID|CustomerID|OrderDate|TotalAmount
+
+
+
+
+OrderItems Table
+
+Stores details about each product purchased in the orders, such as product ID, order ID, quantity, and price.
+
+Structure:OrderItemID|OrderID|ProductID|Quantity|Price
+
+
+
+
+Deliverables:
+
+Write an SQL query to calculate the total quantity of each product sold, along with the product name.
+
+
+
+
+Sample Input:
+
+Products Table:
+
+ProductID | ProductName
+
+1 | Wireless Mouse
+
+2 | Bluetooth Headphones
+
+3 | Coffee Maker
+
+
+
+
+OrderItems Table:
+
+OrderItemID | OrderID | ProductID | Quantity
+
+1 | 101 | 1 | 2
+
+2 | 102 | 2 | 3
+
+3 | 103 | 1 | 1
+
+4 | 104 | 3 | 1
+
+5 | 105 | 2 | 2
+
+
+
+
+Expected Output:
+
+ProductName | TotalQuantitySold
+
+Wireless Mouse | 3
+
+Bluetooth Headphones | 5
+
+Coffee Maker | 1
