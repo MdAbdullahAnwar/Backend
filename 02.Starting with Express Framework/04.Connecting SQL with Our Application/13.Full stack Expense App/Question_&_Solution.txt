@@ -1,0 +1,54 @@
+Question: What the hell are pure or static functions?When do we use it?
+
+
+Soluion: Pure Function
+
+
+A pure function is one that:
+
+Takes something in (input)
+
+Gives something out (output)
+
+Doesn’t mess with anything else outside the function
+
+
+Example:
+
+function add(a, b) {
+  return a + b;
+}
+
+
+Always gives the same result for the same input.
+
+Doesn’t change any variable outside.
+
+
+Not pure example:
+
+let x = 10;
+function addToX(num) {
+  x += num; // changes x outside
+}
+
+
+This one changes something outside, so it’s not pure.
+
+Static Function (simple meaning)
+
+A static function belongs to the class itself, not to any object you make from it.
+You can call it directly from the class — no need to create an object.
+
+Example:
+
+class MathHelper {
+  static add(a, b) {
+    return a + b;
+  }
+}
+
+console.log(MathHelper.add(2, 3)); // 5
+
+
+You didn’t do new MathHelper() — you called it directly.
